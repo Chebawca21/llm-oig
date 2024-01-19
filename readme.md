@@ -22,9 +22,15 @@
 
 ### Wskaźnik Hirscha (wsk)
 
-* [Zero shot](https://chat.openai.com/share/8b5af078-41d8-40f7-9715-d1a17eef97b3)
+* [Zero shot](https://chat.openai.com/share/071babba-5648-4911-b612-ea0219b94441)
 
-* [Chain-of-Thoughts](https://chat.openai.com/share/0f7e7e4e-6d0b-49bb-ba1e-620dacb67d8f)
+* [Chain-of-Thoughts](https://chat.openai.com/share/fc34a781-b0fb-4724-8b1a-bd0408c7679a)
+
+### Regał (regal)
+
+* [Zero shot](https://chat.openai.com/share/0e45a618-86e7-49c6-8b8c-9a791e5afd97)
+
+* [Chain-of-Thoughts](https://chat.openai.com/share/a1ba9b19-9ae3-4d7c-8b4d-e0bd0e78fb44)
 
 
 | Zadanie                   | Zero-shot   | Chain-of-Thoughts
@@ -33,3 +39,4 @@
 | Mistrzostwa               | 0/100       | 0/100
 | Listonosz                 | 80/100      | 80/100
 | Wskaźnik Hirscha          | 0/100       | 0/100
+| Regał                     | 0/100       | 48/100
