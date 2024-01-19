@@ -1,0 +1,16 @@
+For the given task, implement a solution in Python 3.7 using only the numpy library.
+
+Task description:
+The International Youth Championships in Applied Arithmetic are approaching rapidly. One of the disciplines involves checking the divisibility of large numbers by small ones. During the preparations for the competition, the Polish team is perfecting the recognition of numbers divisible by three. The challenge is as follows: For a given number written in decimal system, where one of the digits is replaced by a question mark (?), calculate which digit should be inserted in place of the question mark to obtain the smallest possible number divisible by three.
+
+Input:
+The first line of standard input contains a single natural number L (10 <= L <= 10^150), in which one of the digits (but not the one in the first position) has been replaced by a question mark.
+
+Output:
+The first line of standard output should print the sought digit.
+
+Sample input:
+1?2
+
+Sample output:
+0

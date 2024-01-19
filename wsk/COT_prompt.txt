@@ -1,0 +1,27 @@
+For the given task, implement a solution in Python 3.7 using the numpy library.
+
+Task description:
+Hirsch's index reflects the distribution of citations of a specific scientist and the number of his best publications. According to Hirsch himself:
+A scientist has an index h if h of his publications have at least h citations each.
+Mrs. Marta has decided to start her scientific career. She has determined that in the near future, she could write n different scientific articles. Mrs. Marta knows exactly how many days it would take her to write each article and what citation index she could achieve for each publication. Your task is to calculate, for a given d, the maximum Hirsch index Mrs. Marta could achieve after d days of scientific work.
+
+Input:
+The first line of standard input contains two integers n and t (1 <= n, t <= 200,000). In the next n lines, there are pairs of integers x, y (1 <= x <= n; 1 <= y <= 10^9), indicating, respectively, how many citations a given work would receive and how much time it takes to write it. In the next t lines, one number z (1 <= z <= 10^15) is written in each line, indicating the amount of time for each query. In 80% of the tests, an additional condition is satisfied (1 <= t <= 20).
+
+Output:
+In t lines of standard output, you should print for each query the maximum Hirsch index that Mrs. Marta could achieve in at most z seconds.
+
+Sample input:
+6 3
+3 100
+2 200
+1 300
+4 100
+4 200
+5 500
+300
+400
+500
+
+Sample output:
+With n equal to 6 and t equal to 3, meaning there are 6 possible works to write and 3 different times. For each of the times, the most optimal set of works that can be completed in that time should be chosen. This is a kind of knapsack problem where the weight is the time and the objective function is the Hirsch index. For times 300, 400, and 500, and given possible works, the maximum indices should be 2, 3, and 3 respectively.
