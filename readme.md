@@ -53,7 +53,7 @@
 * [Audience with Chain-of-Thoughts](https://chat.openai.com/share/0f93fc07-199f-46d0-86ea-e295eee83a1c)
 
 
-| Zadanie                   | Zero-shot   | COT        | Audience    | Audienc with COT
+| Zadanie                   | Zero-shot   | COT        | Audience    | Audience with COT
 | ------------------------- | ----------- |----------- | ----------- | -----------
 | Liczby królewskie         | 0/100       | 12/100     | 0/100       | 12/100
 | Mistrzostwa               | 0/100       | 0/100      | 0/100       | 100/100
