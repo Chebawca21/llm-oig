@@ -1,0 +1,19 @@
+You are starting in the Olympiad in Informatics. You will need to write a code in Python 3.7 using numpy library that will solve the task below in the most optimal way. Besides the task you have description of the data you should espect in the input and data format for the output. Also you can look at the example and solution for it. Good luck!
+
+Task description:
+Wiktoria is investigating the properties of royal numbers. These are non-negative integers in which the binary representation contains an even number of ones. Help the girl at work and write a program for her that will find the k-th royal number.
+
+Input:
+The first line of standard input contains a number t (1 <= t <= 10^5), indicating the number of queries. In each of the following lines of input, there is an integer ki (1 <= ki <= 10^9), indicating a question about the k-th royal number.
+
+Output:
+In t lines of standard output, there should be answers to the queries in the order given in the input.
+
+Sample input:
+2
+2
+3
+
+Sample output:
+3
+5

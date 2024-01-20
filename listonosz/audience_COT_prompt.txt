@@ -1,4 +1,4 @@
-For the given task, implement a solution in Python 3.7 using the numpy library.
+You are starting in the Olympiad in Informatics. You will need to write a code in Python 3.7 using numpy library that will solve the task below in the most optimal way. Besides the task you have description of the data you should espect in the input and data format for the output. Also you can look at the example and solution for it. Good luck!
 
 Task description:
 Byte works as a mailman in Byte-land. His duties include emptying mailboxes and transporting all parcels to the nationwide sorting center. In Byte-land, there are n cities (numbered from 1 to n). The distance between two cities with coordinates (x1, y1) and (x2, y2) is defined as: |x1 − x2| + |y1 − y2| Byte has received a list of m cities (a sequence of natural numbers – am), from which he needs to pick up the letters. The mailman must maintain the order of the cities on the list. Therefore, he starts his work in city a1 (sorting center), then visits cities number a2, a3, ..., am, and finally returns to city a1. What distance will Byte cover?
@@ -18,5 +18,8 @@ Example input:
 -2 -2
 3 4 2
 
-Example output:
+Way to solve:
 There are 5 cities, and Byte's path length is 3. The path passes through cities 3, 4, and 2. Therefore, you need to calculate the distances between cities 3 and 4, 4 and 2, 2 and 3. The distances should be calculated using the formula mentioned above. They will be |5 - 1| + |2 - 0| = 6, |1 - (-1)| + |0 - 0| = 2, |(-1) - 5| + |0 - 2| = 8. 6 + 2 + 8 = 16. Hence, the length of Byte's path is 16.
+
+Example output:
+16

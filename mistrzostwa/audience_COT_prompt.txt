@@ -1,0 +1,19 @@
+You are starting in the Olympiad in Informatics. You will need to write a code in Python 3.7 using numpy library that will solve the task below in the most optimal way. Besides the task you have description of the data you should espect in the input and data format for the output. Also you can look at the example and solution for it. Good luck!
+
+Task description:
+The International Youth Championships in Applied Arithmetic are approaching rapidly. One of the disciplines involves checking the divisibility of large numbers by small ones. During the preparations for the competition, the Polish team is perfecting the recognition of numbers divisible by three. The challenge is as follows: For a given number written in decimal system, where one of the digits is replaced by a question mark (?), calculate which digit should be inserted in place of the question mark to obtain the smallest possible number divisible by three.
+
+Input:
+The first line of standard input contains a single natural number L (10 <= L <= 10^150), in which one of the digits (but not the one in the first position) has been replaced by a question mark.
+
+Output:
+The first line of standard output should print the sought digit.
+
+Sample input:
+1?2
+
+Way to solve:
+A number is divisible by 3 when the sum of its digits is divisible by three, so you need to calculate the sum of the known digits (1 and 2). This sum is 3. The number 3 has a remainder of 0 when divided by 3. Therefore, the smallest digit that needs to be added to the number to make it divisible by 3 is 0. The result is 0.
+
+Sample output:
+0
