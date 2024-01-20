@@ -52,6 +52,25 @@
 
 * [Audience with Chain-of-Thoughts](https://chat.openai.com/share/0f93fc07-199f-46d0-86ea-e295eee83a1c)
 
+### Pranie (pranie)
+
+* [Zero shot](https://chat.openai.com/share/fd90bb89-dca1-4e01-8976-90e7d7d481bf)
+
+* [Chain-of-Thoughts](https://chat.openai.com/share/9f12cf06-a21b-40bc-90de-b20e9631cd69)
+
+* [Audience](https://chat.openai.com/share/fc74858a-e8a7-435c-8408-f36b24f3df9c)
+
+* [Audience with Chain-of-Thoughts](https://chat.openai.com/share/4e652bd6-4ef0-478d-815a-1288f630a562)
+
+### Kolorowy wąż (waz)
+
+* [Zero shot](https://chat.openai.com/share/6a62dc35-1699-4851-93fa-a906929644c4)
+
+* [Chain-of-Thoughts](https://chat.openai.com/share/b2d359f9-e6fb-48e9-b908-26e9f67408d7)
+
+* [Audience](https://chat.openai.com/share/df3f160d-6fc8-4a0e-9ee8-86b174180a9d)
+
+* [Audience with Chain-of-Thoughts](https://chat.openai.com/share/fb606e53-9416-46ab-b8f3-378ba6307b51)
 
 | Zadanie                   | Zero-shot   | COT        | Audience    | Audience with COT
 | ------------------------- | ----------- |----------- | ----------- | -----------
@@ -60,3 +79,5 @@
 | Listonosz                 | 80/100      | 80/100     | 80/100      | 80/100
 | Wskaźnik Hirscha          | 0/100       | 0/100      | 0/100       | 0/100
 | Regał                     | 0/100       | 48/100     | 100/100     | 100/100
+| Pranie                    | 0/100       | 50/100     | 50/100      | 50/100
+| Kolorowy wąż              | 0/100       | 0/100      | 0/100       | 0/100

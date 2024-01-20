@@ -1,0 +1,22 @@
+You are starting in the Olympiad in Informatics. You will need to write a code in Python 3.7 using numpy library that will solve the task below in the most optimal way. Besides the task you have description of the data you should espect in the input and data format for the output. Also you can look at the example and solution for it. Good luck!
+
+Task description:
+Fascinated by biology, Kalina decided to study the behavior of a unique snake species called "suffix-tree snake." The snake's body can be divided into M segments, each of a different color. For simplicity, we will number these colors with natural numbers, with the head being color 1, and each subsequent segment having a color one greater than the previous one. The animal will move on a rectangular board, where each field is painted with a color corresponding to exactly one segment of the snake. Kalina noticed that the snake masks some segments of its body by arranging them to lie on fields with the corresponding colors. Help the girl in her research and write a program that, knowing the snake's moves, calculates for each of its positions how many segments are masked.
+
+Input:
+The first line of standard input contains two integers a, b (1 <= a, b <= 500), representing the length and width of the board. The next a lines contain b numbers indicating the colors of the board fields. No number on the board will exceed 500,000. The next line of standard input contains two integers n, m (1 <= m <= n <= 500,000), indicating the number of snake movements and its length, respectively. In the last line of input, there is a sequence of letters N, S, W, E indicating the directions in which the snake moved in each step. Assume that initially, the snake's head is at the position (1, 1), and the rest of the body is outside the board. Additionally, you can assume that the snake's head will never go beyond the board. In tests worth a total of 50% of points, an additional condition holds (1 <= m <= n <= 2,000).
+
+Output:
+The output should contain a sequence of n integers, indicating the number of masked body segments of the snake after each move.
+
+Example input:
+4 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
+1 2 3 4
+5 4
+ESSEN
+
+Example output:
+0 1 1 1 0
