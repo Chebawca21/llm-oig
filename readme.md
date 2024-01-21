@@ -48,7 +48,7 @@
 
 * [Audience with Chain-of-Thoughts](https://chat.openai.com/share/482a333f-9b06-4b28-95f5-b572a9df1898)
 
-* [Generated Knowledge]()
+* [Generated Knowledge](https://chat.openai.com/share/ce4f5002-fe04-4afa-9b7c-baf97dbd643f)
 
 ### Regał (regal)
 
@@ -84,7 +84,7 @@
 
 * [Audience with Chain-of-Thoughts](https://chat.openai.com/share/fb606e53-9416-46ab-b8f3-378ba6307b51)
 
-* [Generated Knowledge]()
+* [Generated Knowledge](https://chat.openai.com/share/bf4eec36-90b1-4461-beca-1323a2dd06d3)
 
 
 ## Uzyskane wyniki
@@ -94,65 +94,7 @@
 | Liczby królewskie         | 0/100       | 12/100     | 0/100       | 12/100            | 12/100
 | Mistrzostwa               | 0/100       | 0/100      | 0/100       | 100/100           | 100/100
 | Listonosz                 | 80/100      | 80/100     | 80/100      | 80/100            | 80/100
-| Wskaźnik Hirscha          | 0/100       | 0/100      | 0/100       | 0/100             |
+| Wskaźnik Hirscha          | 0/100       | 0/100      | 0/100       | 0/100             | 0/100
 | Regał                     | 0/100       | 48/100     | 100/100     | 100/100           | 100/100
 | Pranie                    | 0/100       | 50/100     | 50/100      | 50/100            | 50/100
-| Kolorowy wąż              | 0/100       | 0/100      | 0/100       | 0/100             |
-
-## p-value
-
-Regał
-
-| Numer wykonania  | Zero-shot   | COT        | Audience    | Audience with COT | Generated knowledge
-| ---------------- | ----------- |----------- | ----------- | -----------       | -----------
-| 1                | 0/100       | 48/100     | 87/100      | 87/100            | 100/100
-| 2                | 100/100     | 100/100    | 100/100     | 100/100           | 100/100
-| 3                | 48/100      | 100/100    | 100/100     | 48/100            | 100/100
-| 4                | 100/100     | 100/100    | 48/100      | 100/100           | 100/100
-| 5                | 100/100     | 48/100     | 48/100      | 48/100            | 100/100
-| 6                | 100/100     | 100/100    | 100/100     | 100/100           | 100/100
-| 7                | 100/100     | 0/100      | 100/100     | 12/100            | 100/100
-| 8                | 100/100     | 48/100     | 100/100     | 100/100           | 100/100
-| 9                | 100/100     | 100/100    | 100/100     | 100/100           | 100/100
-| 10               | 48/100      | 100/100    | 100/100     | 100/100           | 100/100
-
-| Statystyka                 | Zero-shot | COT    | Audience | Audience with COT | Generated knowledge
-| -------------------------- | ----------|------- | -------- | -----------       | -----------
-| Średnia arytmetyczna       | 79.6      | 74.4   | 88.3     | 79.5              | 100
-| Odchylenie standardowe     | 33.54     | 34.0   | 20.51    | 30.2              | 0
-
-| p-value             | Zero-shot | COT    | Audience | Audience with COT | Generated knowledge
-| ------------------- | ----------|------- | -------- | -----------       | -----------
-| Zero-shot           | -         | 0.735  | 0.495    | 0.994             | 0.087
-| COT                 | 0.735     | -      | 0.286    | 0.727             | 0.041
-| Audience            | 0.495     | 0.286  | -        | 0.457             | 0.105
-| Audience with COT   | 0.994     | 0.727  | 0.457    | -                 | 0.060
-| Generated knowledge | 0.087     | 0.041  | 0.105    | 0.060             | -
-
-Liczby królewskie
-
-| Numer wykonania  | Zero-shot   | COT        | Audience    | Audience with COT | Generated knowledge
-| ---------------- | ----------- |----------- | ----------- | -----------       | -----------
-| 1                | 48/100      | 48/100     | 0/100       | 12/100            | 12/100
-| 2                | 48/100      | 24/100     | 0/100       | 48/100            | 12/100
-| 3                | 0/100       | 48/100     | 0/100       | 48/100            | 12/100
-| 4                | 48/100      | 48/100     | 0/100       | 48/100            | 12/100
-| 5                | 24/100      | 48/100     | 48/100      | 48/100            | 12/100
-| 6                | 0/100       | 12/100     | 0/100       | 36/100            | 12/100
-| 7                | 48/100      | 48/100     | 0/100       | 48/100            | 12/100
-| 8                | 0/100       | 48/100     | 0/100       | 48/100            | 12/100
-| 9                | 48/100      | 48/100     | 0/100       | 12/100            | 0/100
-| 10               | 48/100      | 12/100     | 0/100       | 0/100             | 12/100
-
-| Statystyka                 | Zero-shot | COT    | Audience | Audience with COT | Generated knowledge
-| -------------------------- | ----------|------- | -------- | -----------       | -----------
-| Średnia arytmetyczna       | 31.2      | 38.4   | 4.8      | 34.8              | 10.8
-| Odchylenie standardowe     | 21.6      | 14.99  | 14.4     | 18.16             | 3.6
-
-| p-value             | Zero-shot | COT    | Audience | Audience with COT | Generated knowledge
-| ------------------- | ----------|------- | -------- | -----------       | -----------
-| Zero-shot           | -         | 0.167  | 0.006    | 0.692             | 0.015
-| COT                 | 0.167     | -      | 0.001    | 0.635             | 0.001
-| Audience            | 0.006     | 0.001  | -        | 0.001             | 0.230
-| Audience with COT   | 0.692     | 0.635  | 0.001    | -                 | 0.002
-| Generated knowledge | 0.015     | 0.001  | 0.230    | 0.002             | -
+| Kolorowy wąż              | 0/100       | 0/100      | 0/100       | 0/100             | 0/100
