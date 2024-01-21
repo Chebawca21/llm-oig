@@ -1,0 +1,28 @@
+Q: Sorting problem
+Knowledge: Sorting is a fundamental algorithmic problem in computer science, involving the arrangement of items in a specific order like ascending or descending. Various sorting algorithms, such as Merge Sort or QuickSort, are employed based on factors like dataset size and distribution
+
+For the given task, implement a solution in Python 3.7 using only the numpy library.
+
+Task description:
+Tomek collects little balls: gold, silver, copper, and even plastic ones. He stores his treasures in n boxes, which are placed on an oak shelf. The shelf consists of n shelves. Exactly one box is on each shelf. Tomek is very organized, so he arranges the boxes according to the number of balls (the box with the smallest number of balls is on the top shelf, while the box with the largest number of balls is on the bottom shelf). Unfortunately, one day Mom rearranged the boxes. Help the boy organize the mess according to the established rules!
+
+Input:
+The first line of standard input contains one natural number n (1 <= n <= 1,000) – the number of shelves on the shelf. In the next n lines, individual shelves are described. The description of each shelf is the description of the box on it. This is a sequence of letters O (ball). Each box contains at least one ball. The sum of all balls does not exceed 10^6. There are no two boxes that contain the same number of balls.
+
+Output:
+The output should contain the description of Tomek's collection after sorting in n lines of standard output.
+
+Example input:
+5
+OOOOO
+OO
+OOOO
+OOOOOO
+O
+
+Example output:
+O
+OO
+OOOO
+OOOOO
+OOOOOO

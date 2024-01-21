@@ -60,7 +60,7 @@
 
 * [Audience with Chain-of-Thoughts](https://chat.openai.com/share/0f93fc07-199f-46d0-86ea-e295eee83a1c)
 
-* [Generated Knowledge]()
+* [Generated Knowledge](https://chat.openai.com/share/bf99b647-c231-438d-9f4c-18a25c909050)
 
 ### Pranie (pranie)
 
@@ -95,6 +95,6 @@
 | Mistrzostwa               | 0/100       | 0/100      | 0/100       | 100/100           | 100/100
 | Listonosz                 | 80/100      | 80/100     | 80/100      | 80/100            | 80/100
 | Wskaźnik Hirscha          | 0/100       | 0/100      | 0/100       | 0/100             |
-| Regał                     | 0/100       | 48/100     | 100/100     | 100/100           |
+| Regał                     | 0/100       | 48/100     | 100/100     | 100/100           | 100/100
 | Pranie                    | 0/100       | 50/100     | 50/100      | 50/100            | 50/100
 | Kolorowy wąż              | 0/100       | 0/100      | 0/100       | 0/100             |
