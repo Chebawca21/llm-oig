@@ -1,0 +1,26 @@
+Q: Traveling Salesman Problem
+Knowledge: The Traveling Salesman Problem is a classic optimization challenge where the goal is to find the most efficient route that visits a set of cities exactly once and returns to the starting city. It has wide applications in logistics, transportation, and network optimization.
+
+
+For the given task, implement a solution in Python 3.7 using the numpy library.
+
+Task description:
+Byte works as a mailman in Byte-land. His duties include emptying mailboxes and transporting all parcels to the nationwide sorting center. In Byte-land, there are n cities (numbered from 1 to n). The distance between two cities with coordinates (x1, y1) and (x2, y2) is defined as: |x1 − x2| + |y1 − y2| Byte has received a list of m cities (a sequence of natural numbers – am), from which he needs to pick up the letters. The mailman must maintain the order of the cities on the list. Therefore, he starts his work in city a1 (sorting center), then visits cities number a2, a3, ..., am, and finally returns to city a1. What distance will Byte cover?
+
+Input:
+The first line of standard input contains two natural numbers n, m (1 <= n, m <= 10^5) – the number of cities and the length of Byte's list. The i + 1-th line gives the location of the i-th city in the form of two integers xi, yi (−10^8 <= xi, yi <= 10^8). The last line provides m natural numbers from the range [1; n] – the numbers of cities visited by Byte in order. You can assume that Byte will not visit the same city twice.
+
+Output:
+The first line of standard output contains a single natural number – the distance covered by Byte.
+
+Example input:
+5 3
+3 5
+-1 0
+5 2
+1 0
+-2 -2
+3 4 2
+
+Example output:
+16

@@ -1,0 +1,19 @@
+For the given task, implement a solution in Python 3.7 using only the numpy library.
+
+Task description:
+Krystian needs to hang laundry, but the household dryer is already overloaded and there is no space on it. The boy decided to take n wooden stakes with heights x1, . . . , xn and drove them into the ground one after another at equal intervals. Then he looked at each pair of stakes with numbers i < j. If all stakes between i and j were lower than min(xi, xj), Krystian stretched a string between i and j at a height of min(xi, xj) – in such a way that it ran parallel to the ground. The boy was so proud of his idea and work that he took a commemorative photo. Now he is trying to count how many strings he hung. Help him with this task!
+
+Input:
+The first line of standard input contains an integer n (1 <= n <= 200,000). The second line contains a sequence of integers x1, . . . , xn (1 <= xi <= n).
+
+Output:
+The output should contain a single integer – the number of strings visible in Krystian's photo.
+
+Example input:
+5
+1 2 2 2 1
+
+Example output:
+4
+
+Knowledge: To solve the problem efficiently, iterate through stake pairs (i, j), ensuring intervening stakes have heights lower than min(xi, xj). Optimize the algorithm, possibly using dynamic programming, to minimize unnecessary comparisons. Increment a counter for each valid pair, providing the total number of strings Krystian can hang.

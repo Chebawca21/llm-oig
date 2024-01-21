@@ -1,0 +1,25 @@
+Q: What are royal numbers?
+Knowledge: These are non-negative integers in which the binary representation contains an even number of ones.
+Q: How effectively check if number is a royal number?
+Knowledge: To efficiently check if a number is a royal number, convert it to its binary representation and count the number of ones. If the count is even, then the number is a royal number; otherwise, it is not.
+
+
+For the following task implement the solution using Python 3.7 and numpy library.
+
+Task description:
+Wiktoria is investigating the properties of royal numbers. These are non-negative integers in which the binary representation contains an even number of ones. Help the girl at work and write a program for her that will find the k-th royal number.
+
+Input:
+The first line of standard input contains a number t (1 <= t <= 10^5), indicating the number of queries. In each of the following lines of input, there is an integer ki (1 <= ki <= 10^9), indicating a question about the k-th royal number.
+
+Output:
+In t lines of standard output, there should be answers to the queries in the order given in the input.
+
+Sample input:
+2
+2
+3
+
+Sample output:
+3
+5
