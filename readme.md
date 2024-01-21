@@ -48,7 +48,7 @@
 
 * [Audience with Chain-of-Thoughts](https://chat.openai.com/share/482a333f-9b06-4b28-95f5-b572a9df1898)
 
-* [Generated Knowledge]()
+* [Generated Knowledge](https://chat.openai.com/share/ce4f5002-fe04-4afa-9b7c-baf97dbd643f)
 
 ### Regał (regal)
 
@@ -84,7 +84,7 @@
 
 * [Audience with Chain-of-Thoughts](https://chat.openai.com/share/fb606e53-9416-46ab-b8f3-378ba6307b51)
 
-* [Generated Knowledge]()
+* [Generated Knowledge](https://chat.openai.com/share/bf4eec36-90b1-4461-beca-1323a2dd06d3)
 
 
 ## Uzyskane wyniki
@@ -94,7 +94,7 @@
 | Liczby królewskie         | 0/100       | 12/100     | 0/100       | 12/100            | 12/100
 | Mistrzostwa               | 0/100       | 0/100      | 0/100       | 100/100           | 100/100
 | Listonosz                 | 80/100      | 80/100     | 80/100      | 80/100            | 80/100
-| Wskaźnik Hirscha          | 0/100       | 0/100      | 0/100       | 0/100             |
+| Wskaźnik Hirscha          | 0/100       | 0/100      | 0/100       | 0/100             | 0/100
 | Regał                     | 0/100       | 48/100     | 100/100     | 100/100           | 100/100
 | Pranie                    | 0/100       | 50/100     | 50/100      | 50/100            | 50/100
-| Kolorowy wąż              | 0/100       | 0/100      | 0/100       | 0/100             |
+| Kolorowy wąż              | 0/100       | 0/100      | 0/100       | 0/100             | 0/100
